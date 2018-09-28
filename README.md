@@ -14,7 +14,7 @@ software.
 
 2. Prepare your training data
 
-For this you have to reuse some already existing database or generate your own data. To train
+For this we can reuse some already existing database or generate your own data. To train
 the vehicles-detection module of traffic monitor I generated my own database of vehicles
 following the PASCAL VOC format. This is well-known format that can be used later to generate
 the traing.record and testing.record TFRecord files needed by tensorflow to re-train an already
@@ -40,18 +40,60 @@ Where:
 * files.txt     : a file listing the images to be used for training
 * labels.pbtxt  : file containg the classes labels
 
+The file **labels.pbtxt** must contain a list of the object classes, i.e:
+
+```
+item {
+  id: 1
+  name: "car"
+}
+item {
+  id: 2
+  name: "motorcycle"
+}
+...
+```
+
 3. Re-training the network
 
   Before starting the re-training script, we have to decide which network we will be using as starting point.
-  There are several pre-trained networks in [tensorflow zoo model][1] repository, just pick one that full-fill our
+  There are several pre-trained networks in [tensorflow zoo model][1] repository, just pick one that fullfill your
   needs. Since in my case I'm looking for a fast object detection network, my first choice is SSD mobilenet V2
-  network. This network provides a good tradeoff between accurracy and speed. Once we decice which network to
-  use we have to download its **.pb** file. At this point we have all what we need to start the re-training script.
+  network. This network provides a good tradeoff between accurracy and speed. Once you decice which network to
+  use, we have to download its **.pb** file and configuration file. In the case of SSD mobilenet V2 we can get
+  the configuration file from the following [link][2]. This file contains severaltraining parametres needed
+  by this network, but we just need to fine-tune some of them, for instance:
 
-  To launch the re-training we have to:
+   * **num_classes**: as its name indicate, this parameter indicates the number of classes
+   * **input_path** (tf_record_input_reader record): this parameter must point to the train.record file generated previously
+   * **label_map_path** (tf_record_input_reader record): this parameter must point to the labels.pbtxt file generated previously
+
+  For example in my setup, the configuration file looks like:
+
+```
+train_input_reader: {
+  tf_record_input_reader {
+    input_path: "data/train.record"
+  }
+  label_map_path: "data/labels.pbtxt"
+}
+```
+
+   The same must be done for the testing records, pointing to the right files. At this point we have all what we need to start the
+   re-training script. My data directory structure is as following:
+
+```
+ data \
+      \-- labels.pbtxt
+      \-- ssd_mobilenet_v2_coco.config
+      \-- test.record
+      \-- train.record
+```
+
+   To launch the re-training we have to:
 
    1. Go to the directory models/research/object_detection/legacy
-   2. Create a data directory to hold the files needed for training (labels.pbtxt, ssd_mobilenet_v2_coco.config, test.record, train.record)
+   2. Copy the data directory to hold the files needed for training (see above)
    3. Copy the images directory to the local directory
    4. Launch the training script as following:
 
@@ -80,3 +122,4 @@ python ../export_inference_graph.py --input_type image_tensor --pipeline_config_
 
 
 [1]: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+[2]: https://github.com/tensorflow/models/blob/master/research/object_detection/samples/configs/ssd_mobilenet_v2_coco.config
