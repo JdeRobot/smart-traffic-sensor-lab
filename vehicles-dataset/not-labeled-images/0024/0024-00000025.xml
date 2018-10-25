@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>small-truck</name>
+		<name>van</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>203</xmin>
+			<xmin>204</xmin>
 			<ymin>139</ymin>
-			<xmax>234</xmax>
-			<ymax>182</ymax>
+			<xmax>233</xmax>
+			<ymax>177</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -42,9 +42,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>192</xmin>
-			<ymin>237</ymin>
-			<xmax>234</xmax>
-			<ymax>287</ymax>
+			<ymin>238</ymin>
+			<xmax>233</xmax>
+			<ymax>281</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>143</xmin>
-			<ymin>206</ymin>
-			<xmax>179</xmax>
-			<ymax>248</ymax>
+			<xmin>142</xmin>
+			<ymin>208</ymin>
+			<xmax>177</xmax>
+			<ymax>244</ymax>
 		</bndbox>
 	</object>
 	<object>
