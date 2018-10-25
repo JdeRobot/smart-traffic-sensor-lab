@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>small-truck</name>
+		<name>van</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -44,7 +44,7 @@
 			<xmin>251</xmin>
 			<ymin>291</ymin>
 			<xmax>309</xmax>
-			<ymax>379</ymax>
+			<ymax>387</ymax>
 		</bndbox>
 	</object>
 	<object>
