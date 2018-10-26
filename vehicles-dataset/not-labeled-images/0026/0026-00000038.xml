@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0026</folder>
 	<filename>0026-00000038.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0026/0026-00000038.jpg</path>
+	<path>/home/redo/workspaces/jderobot/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0026/0026-00000038.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,42 @@
 			<ymin>103</ymin>
 			<xmax>256</xmax>
 			<ymax>115</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>229</xmin>
+			<ymin>99</ymin>
+			<xmax>239</xmax>
+			<ymax>112</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>91</ymin>
+			<xmax>276</xmax>
+			<ymax>103</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>164</xmin>
+			<ymin>462</ymin>
+			<xmax>224</xmax>
+			<ymax>520</ymax>
 		</bndbox>
 	</object>
 </annotation>

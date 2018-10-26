@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0023</folder>
 	<filename>0023-00000012.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0023/0023-00000012.jpg</path>
+	<path>/home/redo/workspaces/jderobot/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0023/0023-00000012.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>257</xmin>
-			<ymin>195</ymin>
-			<xmax>299</xmax>
-			<ymax>270</ymax>
+			<xmin>262</xmin>
+			<ymin>199</ymin>
+			<xmax>295</xmax>
+			<ymax>264</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>358</xmin>
-			<ymin>358</ymin>
-			<xmax>437</xmax>
-			<ymax>450</ymax>
+			<xmin>364</xmin>
+			<ymin>357</ymin>
+			<xmax>430</xmax>
+			<ymax>442</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>110</xmin>
-			<ymin>271</ymin>
-			<xmax>169</xmax>
-			<ymax>347</ymax>
+			<xmin>115</xmin>
+			<ymin>274</ymin>
+			<xmax>164</xmax>
+			<ymax>341</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>199</xmin>
-			<ymin>232</ymin>
-			<xmax>242</xmax>
-			<ymax>284</ymax>
+			<xmin>202</xmin>
+			<ymin>235</ymin>
+			<xmax>236</xmax>
+			<ymax>281</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>247</xmin>
-			<ymin>140</ymin>
-			<xmax>272</xmax>
-			<ymax>171</ymax>
+			<xmin>250</xmin>
+			<ymin>144</ymin>
+			<xmax>270</xmax>
+			<ymax>169</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -79,8 +79,8 @@
 		<bndbox>
 			<xmin>223</xmin>
 			<ymin>114</ymin>
-			<xmax>240</xmax>
-			<ymax>135</ymax>
+			<xmax>239</xmax>
+			<ymax>133</ymax>
 		</bndbox>
 	</object>
 	<object>
