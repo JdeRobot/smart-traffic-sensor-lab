@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0042</folder>
+	<filename>0042-00000031.jpg</filename>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0042/0042-00000031.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>small-truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>282</xmin>
+			<ymin>46</ymin>
+			<xmax>299</xmax>
+			<ymax>69</ymax>
+		</bndbox>
+	</object>
+</annotation>
