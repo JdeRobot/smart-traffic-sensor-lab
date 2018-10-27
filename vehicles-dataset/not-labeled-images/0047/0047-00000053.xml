@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0047</folder>
 	<filename>0047-00000053.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0047/0047-00000053.jpg</path>
+	<path>/home/redo/workspaces/jderobot/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0047/0047-00000053.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -78,9 +78,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>292</xmin>
-			<ymin>424</ymin>
-			<xmax>358</xmax>
-			<ymax>518</ymax>
+			<ymin>419</ymin>
+			<xmax>362</xmax>
+			<ymax>517</ymax>
 		</bndbox>
 	</object>
 </annotation>
