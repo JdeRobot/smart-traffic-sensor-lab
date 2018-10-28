@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0006</folder>
+	<filename>0006-00000030.jpg</filename>
+	<path>/home/redo/workspaces/jderobot/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0006/0006-00000030.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>335</xmin>
+			<ymin>201</ymin>
+			<xmax>382</xmax>
+			<ymax>262</ymax>
+		</bndbox>
+	</object>
+</annotation>
