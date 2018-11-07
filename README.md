@@ -1,7 +1,7 @@
 # traffic-monitor-lab
 
 This repository is intended to keep track of what I'm working on and to be used also
-as a sandbox for testing new features, technologies to be incorporated to the traffic-monitor
+as a sandbox for testing new features, technologies to be incorporated to the smart-traffic-sensor
 software.
 
 # Steps to re-traing your own network by using tensorflow and transfer-learning techniques
@@ -14,17 +14,16 @@ software.
 
 2. Prepare your training data
 
-For this we can reuse some already existing database or generate your own data. To train
+For this you can reuse some already existing database or generate your own data. To train
 the vehicles-detection module of traffic monitor I generated my own database of vehicles
-following the PASCAL VOC format. This is well-known format that can be used later to generate
+following the PASCAL VOC format. This is a well-known format that can be used later to generate
 the traing.record and testing.record TFRecord files needed by tensorflow to re-train an already
 existing network.
 
-To generate the TFRecords I'll be using a modified version of create_pascal_tf_record.py script. Basically,
+To generate the TFRecords a modified version of create_pascal_tf_record.py script will be used. Basically,
 the original script provided by tensorflow is ready to receive as input a dataset in PASCAL VOC format directory
-structure and use it to generate the TF records. However, I find the PASCAL structure a little to complicated
-to what I need (at least at this moment), so I modified the original script a little bit to handle the following
-directory structure:
+structure and use it to generate the TF records. However, the PASCAL structure is too complicated
+for what's needed, so a modified script will be used so it can handle the following directory structure:
 
 ```
  dataset \
@@ -54,15 +53,21 @@ item {
 ...
 ```
 
+Once the data is ready you can create the **test.record** and **traing.cord** as following:
+
+```
+   python machine-learning/tools/create_pascal_tf_record.py --data_dir vehicles-dataset/ --output_path data/test.record
+```
+
 3. Re-training the network
 
-  Before starting the re-training script, we have to decide which network we will be using as starting point.
+  Before starting the re-training script, you have to decide which network you will be using as starting point.
   There are several pre-trained networks in [tensorflow zoo model][1] repository, just pick one that fullfill your
   needs. Since in my case I'm looking for a fast object detection network, my first choice is SSD mobilenet V2
   network. This network provides a good tradeoff between accurracy and speed. Once you decice which network to
-  use, we have to download its **.pb** file and configuration file. In the case of SSD mobilenet V2 we can get
+  use, you have to download its **.pb** file and configuration file. In the case of SSD mobilenet V2 you can get
   the configuration file from the following [link][2]. This file contains severaltraining parametres needed
-  by this network, but we just need to fine-tune some of them, for instance:
+  by this network, but you just need to fine-tune some of them, for instance:
 
    * **num_classes**: as its name indicate, this parameter indicates the number of classes
    * **input_path** (tf_record_input_reader record): this parameter must point to the train.record file generated previously
@@ -79,7 +84,7 @@ train_input_reader: {
 }
 ```
 
-   The same must be done for the testing records, pointing to the right files. At this point we have all what we need to start the
+   The same must be done for the testing records, pointing to the right files. At this point you have all what you need to start the
    re-training script. My data directory structure is as following:
 
 ```
@@ -90,7 +95,7 @@ train_input_reader: {
       \-- train.record
 ```
 
-   To launch the re-training we have to:
+   To launch the re-training you have to:
 
    1. Go to the directory models/research/object_detection/legacy
    2. Copy the data directory to hold the files needed for training (see above)
@@ -98,6 +103,7 @@ train_input_reader: {
    4. Launch the training script as following:
 
 ```bash
+   export PYTHONPATH=../..:../../slim/
    python train.py --logtostderr --train_dir training/ --pipeline_config_path=./data/ssd_mobilenet_v2_coco.config
 ```
 
@@ -108,8 +114,8 @@ train_input_reader: {
 
 3. Generate your model
 
-   At this point we have already ran the training script and generated our model, but the results are still in the intermediate
-   format. In order to use the generated model outside we have to freeze it to a **.pb** network graph file. For this we have to
+   At this point you have already ran the training script and generated our model, but the results are still in the intermediate
+   format. In order to use the generated model outside you have to freeze it to a **.pb** network graph file. For this you have to
    use the export_inference_graph.py script (from legacy directory):
 
 ```bash
