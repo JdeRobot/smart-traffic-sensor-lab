@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0081</folder>
+	<filename>0081-00000057.jpg</filename>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0081/0081-00000057.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
+			<ymin>17</ymin>
+			<xmax>264</xmax>
+			<ymax>29</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>69</ymin>
+			<xmax>222</xmax>
+			<ymax>87</ymax>
+		</bndbox>
+	</object>
+</annotation>
