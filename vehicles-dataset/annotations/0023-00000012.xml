@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0023</folder>
 	<filename>0023-00000012.jpg</filename>
-	<path>/home/redo/workspaces/jderobot/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0023/0023-00000012.jpg</path>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/processed/0023/0023-00000012.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,7 +18,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>262</xmin>
-			<ymin>199</ymin>
+			<ymin>200</ymin>
 			<xmax>295</xmax>
 			<ymax>264</ymax>
 		</bndbox>
@@ -30,8 +30,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>364</xmin>
-			<ymin>357</ymin>
-			<xmax>430</xmax>
+			<ymin>366</ymin>
+			<xmax>428</xmax>
 			<ymax>442</ymax>
 		</bndbox>
 	</object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>202</xmin>
-			<ymin>235</ymin>
-			<xmax>236</xmax>
-			<ymax>281</ymax>
+			<xmin>205</xmin>
+			<ymin>237</ymin>
+			<xmax>233</xmax>
+			<ymax>277</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -68,7 +68,7 @@
 			<xmin>250</xmin>
 			<ymin>144</ymin>
 			<xmax>270</xmax>
-			<ymax>169</ymax>
+			<ymax>167</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>223</xmin>
+			<xmin>224</xmin>
 			<ymin>114</ymin>
 			<xmax>239</xmax>
-			<ymax>133</ymax>
+			<ymax>134</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>247</xmin>
-			<ymin>95</ymin>
-			<xmax>265</xmax>
-			<ymax>113</ymax>
+			<xmin>249</xmin>
+			<ymin>97</ymin>
+			<xmax>261</xmax>
+			<ymax>110</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +101,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>218</xmin>
+			<xmin>217</xmin>
+			<ymin>81</ymin>
+			<xmax>229</xmax>
+			<ymax>94</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>232</xmin>
+			<ymin>88</ymin>
+			<xmax>245</xmax>
+			<ymax>100</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
 			<ymin>79</ymin>
-			<xmax>231</xmax>
-			<ymax>95</ymax>
+			<xmax>263</xmax>
+			<ymax>91</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>231</xmin>
-			<ymin>86</ymin>
-			<xmax>246</xmax>
-			<ymax>103</ymax>
+			<xmin>234</xmin>
+			<ymin>69</ymin>
+			<xmax>244</xmax>
+			<ymax>79</ymax>
 		</bndbox>
 	</object>
 </annotation>
