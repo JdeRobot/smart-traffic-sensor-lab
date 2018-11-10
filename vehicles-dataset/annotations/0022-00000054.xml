@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0022</folder>
 	<filename>0022-00000054.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0022/0022-00000054.jpg</path>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/processed/0022/0022-00000054.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>238</xmin>
-			<ymin>353</ymin>
-			<xmax>284</xmax>
-			<ymax>409</ymax>
+			<xmin>244</xmin>
+			<ymin>356</ymin>
+			<xmax>276</xmax>
+			<ymax>402</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>205</xmin>
-			<ymin>248</ymin>
-			<xmax>230</xmax>
-			<ymax>279</ymax>
+			<xmin>209</xmin>
+			<ymin>251</ymin>
+			<xmax>227</xmax>
+			<ymax>277</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>241</xmin>
-			<ymin>238</ymin>
-			<xmax>265</xmax>
-			<ymax>269</ymax>
+			<xmin>244</xmin>
+			<ymin>243</ymin>
+			<xmax>261</xmax>
+			<ymax>265</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,9 +53,21 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>242</xmin>
-			<ymin>184</ymin>
-			<xmax>260</xmax>
+			<xmin>245</xmin>
+			<ymin>187</ymin>
+			<xmax>254</xmax>
+			<ymax>203</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>222</xmin>
+			<ymin>193</ymin>
+			<xmax>236</xmax>
 			<ymax>207</ymax>
 		</bndbox>
 	</object>
@@ -65,22 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>221</xmin>
-			<ymin>193</ymin>
-			<xmax>236</xmax>
-			<ymax>211</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>car</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>224</xmin>
-			<ymin>166</ymin>
-			<xmax>240</xmax>
-			<ymax>181</ymax>
+			<xmin>226</xmin>
+			<ymin>168</ymin>
+			<xmax>237</xmax>
+			<ymax>180</ymax>
 		</bndbox>
 	</object>
 </annotation>

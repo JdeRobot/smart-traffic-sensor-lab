@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0022</folder>
 	<filename>0022-00000009.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0022/0022-00000009.jpg</path>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/processed/0022/0022-00000009.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>283</xmin>
-			<ymin>373</ymin>
-			<xmax>335</xmax>
-			<ymax>450</ymax>
+			<xmin>286</xmin>
+			<ymin>376</ymin>
+			<xmax>327</xmax>
+			<ymax>442</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>272</xmin>
-			<ymin>236</ymin>
-			<xmax>303</xmax>
-			<ymax>280</ymax>
+			<xmin>276</xmin>
+			<ymin>242</ymin>
+			<xmax>300</xmax>
+			<ymax>272</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>244</xmin>
-			<ymin>182</ymin>
-			<xmax>262</xmax>
-			<ymax>202</ymax>
+			<xmin>246</xmin>
+			<ymin>184</ymin>
+			<xmax>260</xmax>
+			<ymax>199</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -54,9 +54,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>226</xmin>
-			<ymin>168</ymin>
-			<xmax>241</xmax>
-			<ymax>188</ymax>
+			<ymin>169</ymin>
+			<xmax>242</xmax>
+			<ymax>185</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>284</xmin>
-			<ymin>148</ymin>
-			<xmax>299</xmax>
-			<ymax>163</ymax>
+			<xmin>285</xmin>
+			<ymin>150</ymin>
+			<xmax>297</xmax>
+			<ymax>162</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>252</xmin>
+			<xmin>254</xmin>
 			<ymin>134</ymin>
 			<xmax>266</xmax>
-			<ymax>148</ymax>
+			<ymax>147</ymax>
 		</bndbox>
 	</object>
 </annotation>
