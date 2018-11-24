@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0068</folder>
 	<filename>0068-00000043.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0068/0068-00000043.jpg</path>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/processed/0068/0068-00000043.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -96,7 +96,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>None</name>
+		<name>car</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
