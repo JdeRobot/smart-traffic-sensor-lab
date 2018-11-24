@@ -36,6 +36,7 @@ import label_map_util
 
 flags = tf.app.flags
 flags.DEFINE_string('data_dir', '', 'Root directory to raw dataset.')
+flags.DEFINE_string('files', '', 'Name of files.txt.')
 flags.DEFINE_string('output_path', '', 'Path to output TFRecord')
 flags.DEFINE_boolean('ignore_difficult_instances', False, 'Whether to ignore difficult instances')
 FLAGS = flags.FLAGS
@@ -95,12 +96,12 @@ def dict_to_tf_example(data,
         continue
 
       difficult_obj.append(int(difficult))
-
       xmin.append(float(obj['bndbox']['xmin']) / width)
       ymin.append(float(obj['bndbox']['ymin']) / height)
       xmax.append(float(obj['bndbox']['xmax']) / width)
       ymax.append(float(obj['bndbox']['ymax']) / height)
       classes_text.append(obj['name'].encode('utf8'))
+      
       classes.append(label_map_dict[obj['name']])
       truncated.append(int(obj['truncated']))
       poses.append(obj['pose'].encode('utf8'))
@@ -131,8 +132,9 @@ def dict_to_tf_example(data,
 def main(_):
 
   data_dir = FLAGS.data_dir
+  files_txt = FLAGS.files
   label_map_path = os.path.join(data_dir, "labels.pbtxt")
-  examples_path = os.path.join(data_dir, "files.txt")
+  examples_path = os.path.join(data_dir, files_txt)
   annotations_dir = os.path.join(data_dir, "annotations")
 
   label_map_dict = label_map_util.get_label_map_dict(label_map_path)
@@ -145,6 +147,7 @@ def main(_):
     path = os.path.join(annotations_dir, example + '.xml')
     with tf.gfile.GFile(path, 'r') as fid:
       xml_str = fid.read()
+      
     xml = etree.fromstring(xml_str)
     data = dataset_util.recursive_parse_xml_to_dict(xml)['annotation']
     tf_example = dict_to_tf_example(data, FLAGS.data_dir, label_map_dict, FLAGS.ignore_difficult_instances)
