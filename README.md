@@ -56,7 +56,7 @@ item {
 Once the data is ready you can create the **test.record** and **traing.cord** as following:
 
 ```
-   python machine-learning/tools/create_pascal_tf_record.py --data_dir vehicles-dataset/ --output_path data/test.record
+   python machine-learning/tools/create_pascal_tf_record.py --data_dir vehicles-dataset/ --output_path data/test.record --files test-files-balanced.txt 
 ```
 
 3. Re-training the network
