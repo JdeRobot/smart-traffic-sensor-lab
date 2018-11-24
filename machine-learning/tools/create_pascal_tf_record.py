@@ -16,7 +16,8 @@
 r"""Convert raw dataset in PASCAL format to TFRecord for object_detection.
 
 Example usage:
-    python create_pascal_tf_record.py --data_dir=path_to_data_dir --output_path=/home/user/test.record
+    python create_pascal_tf_record.py --data_dir=path_to_data_dir --output_path=/home/user/test.record --files=test-files-balanced.txt
+
 """
 from __future__ import absolute_import
 from __future__ import division
