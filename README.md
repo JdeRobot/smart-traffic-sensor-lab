@@ -100,7 +100,7 @@ train_input_reader: {
    1. Go to the directory models/research/object_detection/legacy
    2. Copy the data directory to hold the files needed for training (see above)
    3. Copy the images directory to the local directory
-   4. In models/research, you havve to execute: protoc object_detection/protos/*.proto --python_out=.
+   4. In models/research, you have to execute: protoc object_detection/protos/*.proto --python_out=.
    5. Launch the training script as following:
 
 ```bash
