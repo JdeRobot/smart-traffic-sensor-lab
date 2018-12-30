@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0025</folder>
 	<filename>0025-00000044.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0025/0025-00000044.jpg</path>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/processed/0025/0025-00000044.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>142</xmin>
-			<ymin>236</ymin>
-			<xmax>184</xmax>
-			<ymax>276</ymax>
+			<xmin>147</xmin>
+			<ymin>240</ymin>
+			<xmax>177</xmax>
+			<ymax>275</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -31,7 +31,7 @@
 		<bndbox>
 			<xmin>229</xmin>
 			<ymin>158</ymin>
-			<xmax>250</xmax>
+			<xmax>247</xmax>
 			<ymax>178</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>273</xmin>
-			<ymin>131</ymin>
-			<xmax>292</xmax>
-			<ymax>150</ymax>
+			<xmin>275</xmin>
+			<ymin>132</ymin>
+			<xmax>288</xmax>
+			<ymax>148</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -55,7 +55,7 @@
 		<bndbox>
 			<xmin>253</xmin>
 			<ymin>142</ymin>
-			<xmax>268</xmax>
+			<xmax>267</xmax>
 			<ymax>158</ymax>
 		</bndbox>
 	</object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>233</xmin>
+			<xmin>234</xmin>
 			<ymin>121</ymin>
-			<xmax>249</xmax>
-			<ymax>139</ymax>
+			<xmax>246</xmax>
+			<ymax>136</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,34 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>230</xmin>
-			<ymin>110</ymin>
-			<xmax>247</xmax>
-			<ymax>125</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>car</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>235</xmin>
-			<ymin>98</ymin>
-			<xmax>248</xmax>
-			<ymax>115</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>car</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>248</xmin>
-			<ymin>92</ymin>
-			<xmax>258</xmax>
-			<ymax>101</ymax>
+			<xmin>232</xmin>
+			<ymin>113</ymin>
+			<xmax>245</xmax>
+			<ymax>123</ymax>
 		</bndbox>
 	</object>
 </annotation>

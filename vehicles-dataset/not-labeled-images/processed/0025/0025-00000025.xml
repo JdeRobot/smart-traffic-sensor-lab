@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0025</folder>
 	<filename>0025-00000025.jpg</filename>
-	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/0025/0025-00000025.jpg</path>
+	<path>/home/vanejessi/Etiquetado de imagenes/smart-traffic-sensor-lab/vehicles-dataset/not-labeled-images/processed/0025/0025-00000025.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -14,13 +14,13 @@
 	<object>
 		<name>car</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>355</xmin>
-			<ymin>424</ymin>
-			<xmax>442</xmax>
-			<ymax>520</ymax>
+			<xmin>358</xmin>
+			<ymin>432</ymin>
+			<xmax>433</xmax>
+			<ymax>516</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -30,8 +30,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>192</xmin>
-			<ymin>271</ymin>
-			<xmax>229</xmax>
+			<ymin>273</ymin>
+			<xmax>226</xmax>
 			<ymax>324</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>282</xmin>
-			<ymin>156</ymin>
-			<xmax>303</xmax>
-			<ymax>180</ymax>
+			<xmin>284</xmin>
+			<ymin>157</ymin>
+			<xmax>302</xmax>
+			<ymax>179</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,22 +53,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>222</xmin>
-			<ymin>147</ymin>
-			<xmax>239</xmax>
+			<xmin>223</xmin>
+			<ymin>150</ymin>
+			<xmax>238</xmax>
 			<ymax>170</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>truck</name>
+		<name>small-truck</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>263</xmin>
-			<ymin>90</ymin>
-			<xmax>281</xmax>
-			<ymax>119</ymax>
+			<ymin>91</ymin>
+			<xmax>278</xmax>
+			<ymax>118</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>231</xmin>
+			<xmin>232</xmin>
 			<ymin>108</ymin>
-			<xmax>244</xmax>
-			<ymax>121</ymax>
+			<xmax>242</xmax>
+			<ymax>122</ymax>
 		</bndbox>
 	</object>
 	<object>
