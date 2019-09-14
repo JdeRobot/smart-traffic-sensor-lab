@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0262</folder>
+	<filename>0262-00000070.jpg</filename>
+	<path>/home/vanejessi/vehicle dataset definitivo/images/0262/0262-00000070.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>457</xmin>
+			<ymin>78</ymin>
+			<xmax>475</xmax>
+			<ymax>96</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>motorcycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>416</xmin>
+			<ymin>117</ymin>
+			<xmax>427</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+</annotation>
