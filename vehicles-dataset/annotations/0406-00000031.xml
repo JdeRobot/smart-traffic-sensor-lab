@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0406</folder>
+	<filename>0406-00000031.jpg</filename>
+	<path>/home/vanejessi/vehicle dataset definitivo/images/0406/0406-00000031.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>328</xmin>
+			<ymin>294</ymin>
+			<xmax>412</xmax>
+			<ymax>355</ymax>
+		</bndbox>
+	</object>
+</annotation>
